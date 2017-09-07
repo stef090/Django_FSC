@@ -1,0 +1,1 @@
+Get country name, flag and GDP for following countries: USA, India, UK
