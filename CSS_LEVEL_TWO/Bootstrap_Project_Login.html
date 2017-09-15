@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Project Login</title>
+    <link rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous"/>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a href="#" class="navbar-brand">Welcome</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="Bootstrap_Project_Main.html">Landing Page</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+
+      <div class="jumbotron">
+       <h1>Log In</h1>
+        <p>Enter your email and password below to log in to Coffee Lover</p>
+      </div>
+      <form class="form-group" action="index.html" method="get">
+        <label for="email">Email address</label>
+        <br>
+        <input type="email" name="email" value="" placeholder="Email" class="form-control">
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" name="password" value="" placeholder="Password" class="form-control">
+        <br>
+        <div class="checkbox">
+          <label for="keep_login">
+            <input type="checkbox" name="keep_login" value="">
+            Keep Me Logged In
+          </label>
+
+        </div>
+        <br>
+        <input type="submit" name="submit" value="Submit" class="btn btn-default">
+      </form>
+    </div>
+  </body>
+</html>
