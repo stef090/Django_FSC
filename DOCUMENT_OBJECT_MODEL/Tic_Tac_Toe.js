@@ -17,6 +17,9 @@ for (var i = 1; i < 10; i++) {
     if(this.textContent === "X"){
       this.textContent = "O";
     }
+    else if (this.textContent==="O") {
+      this.textContent = "";
+    }
     else {
       this.textContent = "X";
     }
