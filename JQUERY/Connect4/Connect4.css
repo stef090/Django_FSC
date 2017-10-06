@@ -1,0 +1,24 @@
+table div{
+  height: 8em;
+  width: 8em;
+  background-color: gray;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 2px 2px 2px 2px;
+}
+
+.player1{
+  background-color: blue;
+}
+
+.player2{
+  background-color: red;
+}
+
+.player1active{
+  color: blue;
+}
+
+.player2active{
+  color: red;
+}
