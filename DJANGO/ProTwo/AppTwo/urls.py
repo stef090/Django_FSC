@@ -3,5 +3,5 @@ from AppTwo import views
 
 urlpatterns = [
 
-url(r'^$',views.help)
+url(r'^$',views.users)
 ]
