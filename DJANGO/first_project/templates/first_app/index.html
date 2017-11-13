@@ -7,8 +7,31 @@
     <link rel="stylesheet" href="{% static  "css/mystyle.css" %}"/>
   </head>
   <body>
-    <h1>Hi, this is a picture of two trolls having martinis!</h1>
+    <!--<h1>Hi, this is a picture of two trolls having martinis!</h1>
     <img src="{% static "images/Troll_Martini.jpg" %}" alt="Troll Martini">
+    -->
+    <h1>ACCESS RECORDS</h1>
 
+    <div class="djangtwo">
+      {% if access_records %}
+        <table>
+          <thead>
+            <th>Site Name</th>
+            <th>Date Accessed</th>
+          </thead>
+
+
+
+        {% for acc in access_records %}
+        <tr>
+          <td>{{ acc.name }}</td>
+          <td>{{ acc.date }}</td>
+        </tr>
+        {% endfor %}
+        </table>
+        {% else %}
+        <p>NO ACCESS RECORDS FOUND!</p>
+        {% endif %}
+    </div>
   </body>
 </html>
