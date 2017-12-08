@@ -43,7 +43,7 @@
             <a href="{% url 'post_new' %}">New Post</a>
           </li>
           <li>
-            <a href="{% url 'post_draft_list %}">Drafts</a>
+            <a href="{% url 'post_draft_list' %}">Drafts</a>
           </li>
           <li>
             <a href="{% url 'logout' %}">Logout</a>
@@ -69,7 +69,7 @@
         <div class="col-md-8">
           <div class="blog_posts">
             {% block content %}
-            
+
             {% endblock %}
           </div>
         </div>
