@@ -8,7 +8,7 @@ from django.urls import reverse_lazy
 from blog.forms import PostForm, CommentForm
 from django.views.generic import (TemplateView,
                                   ListView, DetailView,
-                                  CreateView,UpdateView, DeleteView)
+                                  CreateView, UpdateView, DeleteView)
 
 
 class AboutView(TemplateView):
